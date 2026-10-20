@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Hospital photograph — Waiting area</title><desc id="desc">Replace this gentle green-toned placeholder with the hospital waiting area photograph.</desc>
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#E3E9F2"/><stop offset=".5" stop-color="#C1CFE2"/><stop offset="1" stop-color="#ECF0F6"/></linearGradient><radialGradient id="h"><stop stop-color="#fff" stop-opacity=".76"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="1000" fill="url(#g)"/><ellipse cx="820" cy="150" rx="520" ry="330" fill="url(#h)"/>
+  <g fill="none" stroke="#082A6B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".58">
+    <path d="M505 690h590M570 690V355h460v335M640 570h320v60H640zM665 630v60M935 630v60"/>
+    <path d="M660 420h110v95H660zM830 420h110v95H830zM680 525h70M850 525h70"/>
+    <path d="M745 355v-60h110v60"/>
+  </g>
+  <text x="800" y="865" text-anchor="middle" fill="#082A6B" font-family="DM Sans, sans-serif" font-size="35" font-weight="600" letter-spacing="2">Hospital photograph</text>
+  <text x="800" y="916" text-anchor="middle" fill="#4C596B" font-family="DM Sans, sans-serif" font-size="20" letter-spacing="4">WAITING AREA</text>
+</svg>

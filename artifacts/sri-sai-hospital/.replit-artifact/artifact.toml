@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Veda Hospital (Life Care)"
+description = "A polished, responsive single-page website for Veda Hospital (Life Care), featuring hospital hours, doctors, services, patient reviews, and visit information."
+version = "1.0.0"
+id = "artifacts/sri-sai-hospital"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24485
+
+[services.development]
+run = "pnpm --filter @workspace/sri-sai-hospital run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sri-sai-hospital", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/sri-sai-hospital/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24485"
+BASE_PATH = "/"

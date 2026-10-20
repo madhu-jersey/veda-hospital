@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Hospital photograph — Building</title><desc id="desc">Replace this gentle green-toned placeholder with the hospital building photograph.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DAE4F0"/><stop offset=".56" stop-color="#C0D0E5"/><stop offset="1" stop-color="#EEF2F7"/></linearGradient><radialGradient id="h"><stop stop-color="#fff" stop-opacity=".78"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="1000" fill="url(#g)"/><ellipse cx="1250" cy="180" rx="520" ry="420" fill="url(#h)"/>
+  <g fill="none" stroke="#082A6B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".58">
+    <path d="M520 690h560M580 690V405h440v285M520 405l280-145 280 145M740 690V540h120v150"/>
+    <path d="M650 465h55v62h-55zM895 465h55v62h-55zM650 570h55v62h-55zM895 570h55v62h-55zM776 355h48v52h-48z"/>
+    <path d="M785 380h30M800 365v30"/>
+  </g>
+  <text x="360" y="130" fill="#082A6B" font-family="DM Sans, sans-serif" font-size="35" font-weight="600" letter-spacing="2">Hospital photograph</text>
+  <text x="360" y="172" fill="#4C596B" font-family="DM Sans, sans-serif" font-size="20" letter-spacing="4">BUILDING</text>
+</svg>

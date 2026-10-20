@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Hospital photograph — Reception</title><desc id="desc">Replace this gentle green-toned placeholder with the hospital reception photograph.</desc>
+  <defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#DFE7F1"/><stop offset=".52" stop-color="#C4D2E4"/><stop offset="1" stop-color="#F1F4F8"/></linearGradient><radialGradient id="h"><stop stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="1000" fill="url(#g)"/><ellipse cx="310" cy="160" rx="470" ry="390" fill="url(#h)"/>
+  <g fill="none" stroke="#082A6B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".58">
+    <path d="M440 655h720M515 655V405h570v250M515 490h570M590 655v-96h420v96"/>
+    <path d="M700 455h200M748 380h104v70H748zM760 580h80v75"/>
+    <path d="M616 425h24M960 425h24"/>
+  </g>
+  <text x="800" y="865" text-anchor="middle" fill="#082A6B" font-family="DM Sans, sans-serif" font-size="35" font-weight="600" letter-spacing="2">Hospital photograph</text>
+  <text x="800" y="916" text-anchor="middle" fill="#4C596B" font-family="DM Sans, sans-serif" font-size="20" letter-spacing="4">RECEPTION</text>
+</svg>

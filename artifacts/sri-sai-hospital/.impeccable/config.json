@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-10-20T16:05:46.806Z",
+        "reason": "Fonts specified in the original design brief (Inter body, Plus Jakarta Sans display); user's rebrand brief forbids editing src/index.css"
+      },
+      {
+        "rule": "overused-font",
+        "value": "plus jakarta sans",
+        "createdAt": "2026-10-20T16:05:47.146Z",
+        "reason": "Fonts specified in the original design brief (Inter body, Plus Jakarta Sans display); user's rebrand brief forbids editing src/index.css"
+      }
+    ]
+  }
+}

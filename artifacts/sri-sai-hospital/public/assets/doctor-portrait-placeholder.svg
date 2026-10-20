@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 864 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Doctor portrait — to be provided</title><desc id="desc">Replace this placeholder with the doctor-approved portrait photograph.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#DAE4F0"/><stop offset=".56" stop-color="#C0D0E5"/><stop offset="1" stop-color="#EEF2F7"/></linearGradient></defs>
+  <rect width="864" height="1080" fill="url(#g)"/>
+  <g fill="none" stroke="#082A6B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".58">
+    <path d="M302 470h260a26 26 0 0 1 26 26v170a26 26 0 0 1-26 26H302a26 26 0 0 1-26-26V496a26 26 0 0 1 26-26Z"/>
+    <path d="M372 470l22-38h76l22 38"/>
+    <circle cx="432" cy="580" r="62"/>
+  </g>
+  <text x="432" y="790" text-anchor="middle" fill="#082A6B" font-family="DM Sans, sans-serif" font-size="38" font-weight="600" letter-spacing="2">Doctor portrait</text>
+  <text x="432" y="836" text-anchor="middle" fill="#4C596B" font-family="DM Sans, sans-serif" font-size="22" letter-spacing="4">TO BE PROVIDED</text>
+</svg>

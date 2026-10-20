@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Hospital photograph — Consultation room</title><desc id="desc">Replace this gentle green-toned placeholder with the consultation room photograph.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D6E0ED"/><stop offset=".5" stop-color="#C3D0E2"/><stop offset="1" stop-color="#ECF0F6"/></linearGradient><radialGradient id="h"><stop stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1600" height="1000" fill="url(#g)"/><ellipse cx="1250" cy="820" rx="520" ry="360" fill="url(#h)"/>
+  <g fill="none" stroke="#082A6B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".58">
+    <path d="M520 690h560M585 690V365h430v325M680 465h240v120H680zM720 585v100M880 585v100"/>
+    <circle cx="800" cy="424" r="28"/><path d="M800 397v54M773 424h54M620 620h35M945 620h35"/>
+  </g>
+  <text x="800" y="865" text-anchor="middle" fill="#082A6B" font-family="DM Sans, sans-serif" font-size="35" font-weight="600" letter-spacing="2">Hospital photograph</text>
+  <text x="800" y="916" text-anchor="middle" fill="#4C596B" font-family="DM Sans, sans-serif" font-size="20" letter-spacing="4">CONSULTATION ROOM</text>
+</svg>
