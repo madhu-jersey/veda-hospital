@@ -1,7 +1,7 @@
 
 {
   "buildCommand": "pnpm --filter @workspace/sri-sai-hospital run build",
-  "outputDirectory": "dist",
+  "outputDirectory": "dist/public",
   "rewrites": [
     {
       "source": "/(.*)",
