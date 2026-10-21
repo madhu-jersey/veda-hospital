@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react';
 import {
-  Check, ChevronDown, Clock3, MapPin, MessageCircleHeart, PhoneCall, Star, UserCheck,
+  Check, ChevronDown, Clock3, CreditCard, Landmark, MapPin, MessageCircleHeart, PhoneCall, ShieldCheck, Star, UserCheck,
 } from 'lucide-react';
 
 const phone = '+918688877831';
@@ -39,6 +39,37 @@ const reasons = [
     text: 'On Railway Flyover Service Road, Venkatarayapuram, with directions one tap away.',
     icon: MapPin,
   },
+];
+
+const insuranceFacilities = [
+  {
+    title: 'Medical Insurance Facilities',
+    text: 'Treatment for patients covered by medical insurance.',
+    icon: ShieldCheck,
+  },
+  {
+    title: 'Cashless Insurance Facilities',
+    text: 'Cashless treatment with participating insurers.',
+    icon: CreditCard,
+  },
+  {
+    title: 'Reimbursement facility for State Government employees',
+    text: 'Support with reimbursement for State Government employees.',
+    icon: Landmark,
+  },
+];
+
+const insurancePartners = [
+  'Star Health',
+  'HDFC ERGO',
+  'Tata AIG',
+  'ICICI Lombard',
+  'SBI General Insurance',
+  'Royal Sundaram',
+  'ManipalCigna',
+  'ACKO',
+  'Aditya Birla Health',
+  'Future Generali',
 ];
 
 const questions = [
@@ -120,6 +151,35 @@ export function WhyChooseSection() {
           <a className="info-doctor-link" href="#doctor-jyothi-krishna"><span><Check size={17} aria-hidden="true" /> Dr. Reddy Jyothi Krishna</span><ChevronDown size={17} aria-hidden="true" /></a>
           <a className="info-doctor-link" href="#doctor-vedavathi"><span><Check size={17} aria-hidden="true" /> Dr. Reddy Vedavathi</span><ChevronDown size={17} aria-hidden="true" /></a>
           <a className="button button-primary info-book-button" href={`tel:${phone}`}><PhoneCall size={17} aria-hidden="true" /> Call to book</a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function InsuranceSection() {
+  return (
+    <section className="info-page insurance-page" id="insurance" aria-labelledby="insurance-heading">
+      <div className="container info-container">
+        <div className="info-intro">
+          <Heading id="insurance-heading" label="Insurance" words={['Insurance', '&']} italic="Cashless Support" />
+        </div>
+        <div className="reason-grid insurance-grid">
+          {insuranceFacilities.map(({ title, text, icon: Icon }, index) => (
+            <article className="reason-card" key={title} style={{ '--item-index': index } as React.CSSProperties}>
+              <span className="reason-icon"><Icon size={23} strokeWidth={1.6} aria-hidden="true" /></span>
+              <h3>{title}</h3>
+              <p>{text}</p>
+            </article>
+          ))}
+        </div>
+        <div className="insurance-partners">
+          <h3>Selected empanelled partners</h3>
+          <p>Please call the hospital to confirm your insurer and policy before admission.</p>
+          <ul className="insurance-partner-list">
+            {insurancePartners.map((partner) => <li key={partner}>{partner}</li>)}
+          </ul>
+          <a className="button button-primary insurance-call" href={`tel:${phone}`}><PhoneCall size={17} aria-hidden="true" /> Call +91 86888 77831</a>
         </div>
       </div>
     </section>

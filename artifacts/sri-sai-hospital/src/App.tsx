@@ -5,7 +5,7 @@ import {
 import { DoctorsSection } from './components/DoctorsSection';
 import { HeroDotField } from './components/HeroDotField';
 import { HomeHero } from './components/HomeHero';
-import { FaqSection, WhyChooseSection } from './components/InfoPages';
+import { FaqSection, InsuranceSection, WhyChooseSection } from './components/InfoPages';
 import { galleryItems } from './data/gallery';
 
 const GalleryPage = lazy(() => import('./components/GalleryPage').then((module) => ({ default: module.GalleryPage })));
@@ -125,6 +125,7 @@ function SiteHeader() {
           <a href={navLink('doctors')} aria-current={activeSection === 'doctors' ? 'location' : undefined} data-testid="link-nav-doctors" onClick={closeMenu}>Our doctors</a>
           <a href={navLink('gallery')} aria-current={activeSection === 'gallery' ? 'location' : undefined} data-testid="link-nav-hospital" onClick={closeMenu}>Hospital</a>
           <a href={navLink('reviews')} aria-current={activeSection === 'reviews' ? 'location' : undefined} data-testid="link-nav-reviews" onClick={closeMenu}>Reviews</a>
+          <a href={navLink('insurance')} aria-current={activeSection === 'insurance' ? 'location' : undefined} data-testid="link-nav-insurance" onClick={closeMenu}>Insurance</a>
           <a href={navLink('faq')} aria-current={activeSection === 'faq' ? 'location' : undefined} data-testid="link-nav-faq" onClick={closeMenu}>FAQ</a>
           <a href={navLink('visit')} aria-current={activeSection === 'visit' ? 'location' : undefined} data-testid="link-nav-visit" onClick={closeMenu}>Visit us</a>
           <a className="nav-mobile-call" href={`tel:${phone}`} onClick={closeMenu}>Call now</a>
@@ -874,7 +875,7 @@ function Footer() {
             <nav className="footer-nav" aria-label="Footer navigation">
               <a href={`${homePrefix}#services`} data-testid="link-footer-services">Services</a><a href={`${homePrefix}#why-choose`} data-testid="link-footer-why-choose">Why choose us</a>
               <a href={`${homePrefix}#doctors`} data-testid="link-footer-doctors">Our doctors</a><a href={`${homePrefix}#gallery`} data-testid="link-footer-hospital">Hospital</a>
-              <a href={`${homePrefix}#reviews`} data-testid="link-footer-reviews">Reviews</a><a href={`${homePrefix}#faq`} data-testid="link-footer-faq">FAQ</a>
+              <a href={`${homePrefix}#reviews`} data-testid="link-footer-reviews">Reviews</a><a href={`${homePrefix}#insurance`} data-testid="link-footer-insurance">Insurance</a><a href={`${homePrefix}#faq`} data-testid="link-footer-faq">FAQ</a>
               <a href={`${homePrefix}#visit`} data-testid="link-footer-visit">Visit us</a>
             </nav>
           </div>
@@ -965,6 +966,7 @@ function App() {
           <Doctors />
           <Gallery />
           <Reviews />
+          <InsuranceSection />
           <FaqSection />
           <Visit />
         </main>
